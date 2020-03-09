@@ -40,16 +40,16 @@ def resize():
     messagebox.showinfo("DONE", "RESIZING DONE")
 
 #quality
-l2=Label(text="quality").pack()
-host_port=Entry(textvariable=qua,width=15).pack()
+l1=Label(text="quality").pack()
+quality=Entry(textvariable=qua,width=15).pack()
 
 #width
 l2=Label(text="WIDTH").pack()
-host_port=Entry(textvariable=width,width=15).pack()
+w=Entry(textvariable=width,width=15).pack()
 
 #height
-mylabe1=Label(text="HEIGHT").pack()
-message_box=Entry(textvariable=height,width=15).pack()
+l3=Label(text="HEIGHT").pack()
+h=Entry(textvariable=height,width=15).pack()
 
 
 

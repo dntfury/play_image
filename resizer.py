@@ -28,6 +28,7 @@ def select_file():
     file_path=filedialog.askopenfilename(initialdir = "/",title = "Select file",filetypes = (("jpeg files","*.jpg"),("all files","*.*")))
     print(file_path)
     return file_path
+
 def resize():
     print(file_path)
     #print(type(qua))
@@ -38,6 +39,9 @@ def resize():
     fd_img.close()
     print("DONE")
     messagebox.showinfo("DONE", "RESIZING DONE")
+    
+def close():
+    os._exit(0)
 
 #quality
 l1=Label(text="quality").pack()
@@ -59,5 +63,5 @@ select_button=Button(text="SELECT FILE" ,command=select_file).pack()
 
 resize_button=Button(text="RESIZE" ,command=resize).pack()
 
-
+quit_button=Button(text="QUIT" ,command=close).pack()
 

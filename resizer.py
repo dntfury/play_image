@@ -1,13 +1,13 @@
 
 from tkinter import *
 from tkinter import filedialog
-import time
+#import time
 #from tkinter.messagebox import *
 from tkinter import messagebox
 
 from PIL import Image
 
-from datetime import datetime, date, time
+#from datetime import datetime, date, time
 
 client_GUI=Tk()
 client_GUI.title("SD RESISER")
@@ -34,7 +34,7 @@ def resize():
     #print(type(qua))
     fd_img =Image.open(file_path)
     fd_img = fd_img.resize((width.get(),height.get()),Image.ANTIALIAS)
-    title=datetime.now()
+ #   title=datetime.now()
     fd_img.save("A.jpeg",optimize=True,quality=qua.get())
     fd_img.close()
     print("DONE")

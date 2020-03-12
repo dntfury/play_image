@@ -1,7 +1,7 @@
 
 from tkinter import *
 from tkinter import filedialog
-#import time
+import time
 #from tkinter.messagebox import *
 from tkinter import messagebox
 
@@ -34,8 +34,9 @@ def resize():
     #print(type(qua))
     fd_img =Image.open(file_path)
     fd_img = fd_img.resize((width.get(),height.get()),Image.ANTIALIAS)
- #   title=datetime.now()
-    fd_img.save("A.jpeg",optimize=True,quality=qua.get())
+    title=time.time()
+    title=str(title) + ".png"
+    fd_img.save(title,optimize=True,quality=qua.get())
     fd_img.close()
     print("DONE")
     messagebox.showinfo("DONE", "RESIZING DONE")

@@ -66,3 +66,6 @@ resize_button=Button(text="RESIZE" ,command=resize).pack()
 
 quit_button=Button(text="QUIT" ,command=close).pack()
 
+
+
+client_GUI.mainloop()

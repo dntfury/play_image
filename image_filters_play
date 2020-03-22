@@ -82,7 +82,7 @@ w = OptionMenu(client_GUI,mode_1, "P", "L")
 w.pack()
 
 #mode_2
-l3=Label(text="HEIGHT").pack()
+l3=Label(text="MODE_2").pack()
 mode_2 = StringVar(client_GUI)
 mode_2.set("P") 
 s = OptionMenu(client_GUI,mode_2, "P", "L","1")

@@ -12,3 +12,6 @@ Fun little apllication to resize and compress images
 pip install PIL
 pip install tkinter
 python -m resizer.py
+
+## Testing issues and pull requests
+Sample String for updation

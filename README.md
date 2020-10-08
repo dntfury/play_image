@@ -1,7 +1,15 @@
 # play_image
 ## In a Nutshell
-Fun little apllication to resize and compress images 
-## Functionalities
+Program to to resize & compress images 
+> resizer.py
+
+Program to to apply filters on images   
+>image_filters_play.py
+
+Program to to apply upscale on images ......to be
+
+
+## Functionalities resizer.py
 -Resize the image by taking integer input in pixel lenths
 <br>-can also give quality parameter to reduce size(storage) of image 
 ## Developed with

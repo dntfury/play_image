@@ -7,7 +7,7 @@ Program to to apply filters on images
 >image_filters_play.py
 
 Program to to apply upscale on images ......to be
-
+>upscaling_play.py
 
 ## Functionalities resizer.py
 -Resize the image by taking integer input in pixel lenths

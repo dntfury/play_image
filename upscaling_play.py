@@ -1,6 +1,6 @@
 #upscale image
 #rescale and operations over the pixels
-#SOR algo try
+
 #doulbe the number of row and Column
 from PIL import Image
 import numpy as np

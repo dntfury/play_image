@@ -6,7 +6,7 @@ Program to to resize & compress images
 Program to to apply filters on images   
 >image_filters_play.py
 
-Program to to apply upscale on images ......to be
+Program to to apply upscale on images 
 >upscaling_play.py
 
 ## Functionalities resizer.py

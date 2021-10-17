@@ -23,3 +23,6 @@ python -m resizer.py
 
 ## Testing issues and pull requests
 Sample String for updation
+
+
+![Screenshot](fo331.png)
